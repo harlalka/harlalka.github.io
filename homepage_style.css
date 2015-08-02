@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family:'Open Sans', sans-serif;
+    font-style:normal;
+    font-weight:300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Raleway', sans-serif;
+    font-style:normal;
+    font-weight:500;
+}
+a {
+    color:#00E;
+    outline:none;
+    text-decoration: none;
+    font-weight: 400;
+    text-shadow: none;
+}
+a:hover {
+    text-shadow: 0px 1px 1px rgba(0, 0, 238, 0.16);
+}
+#top-button {
+    position: fixed;
+    right:5px;
+    bottom:5px;
+}
+#top-button a {
+    padding: 6px;
+    background: #00E;
+    color: white;
+    -webkit-border-radius: 3px 3px 0 0;
+       -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+}
+.container {
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+hr {
+    border-color:#fff;
+}
+#photo {
+    -webkit-border-radius:50%;
+       -moz-border-radius:50%;
+            border-radius:50%;
+    float:right;
+    margin-left:10px;
+    margin-top:-20px;
+    -webkit-box-shadow:1px 1px 1px gray;
+       -moz-box-shadow:1px 1px 1px gray;
+            box-shadow:1px 1px 1px gray;
+}
+
+#certificates {
+    border-collapse: collapse;
+}
+
+#certificates td, #certificates th {
+    padding: 2px 4px;
+    border: 1px dotted black;
+    vertical-align: top;
+}
+
+#mini-courses {
+    margin-left: 24px;
+}
